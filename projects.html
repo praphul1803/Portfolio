@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Praphul Pandey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo">Portfolio<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="display:flex;gap:.5rem">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>My <span class="gradient-text">Projects</span></h1>
+      <p>Some of the things I've built and researched.</p>
+    </div>
+
+    <section>
+      <div class="filters">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="web">Web</button>
+        <button data-filter="ml">Machine Learning</button>
+      </div>
+      <div class="grid" id="projectGrid">
+        <div class="card" data-cat="ml">
+          <div class="thumb">📊</div>
+          <h3>ML in College ERP</h3>
+          <p>Research paper on predicting student performance from internal assessment data and integrating the model into a college ERP system.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">KNN</span><span class="tag">Machine Learning</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">MySQL</span><span class="tag">SQLite</span><span class="tag">Research</span></div>
+        </div>
+        <div class="card" data-cat="web">
+          <div class="thumb">🌐</div>
+          <h3>Personal Portfolio</h3>
+          <p>This responsive four-page site with dark mode, scroll animations and form validation, hosted on Netlify.</p>
+          <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        </div>
+        <div class="card" data-cat="web">
+          <div class="thumb">🚗</div>
+          <h3>AbandonedWatch Nashik – Abandoned Vehicle Detection</h3>
+          <p>Developed a web-based abandoned vehicle reporting system featuring vehicle detection, image capture, location tracking, complaint registration, and authority notifications. Explored YOLO and OpenCV for automated detection and implemented complaint status tracking to improve reporting efficiency.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">YOLO</span><span class="tag">OpenCV</span><span class="tag">MySQL</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Praphul Pandey. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>

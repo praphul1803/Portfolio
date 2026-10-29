@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Praphul Pandey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo">Portfolio<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div style="display:flex;gap:.5rem">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="page-title">
+      <h1>Get In <span class="gradient-text">Touch</span></h1>
+      <p>Have a question or want to work together? Send me a message.</p>
+    </div>
+
+    <section class="two-col">
+      <div class="contact-info reveal">
+        <h2>Contact Details</h2>
+        <p>📧 <strong>Email:</strong> praphul.pandey10@gmail.com</p>
+        <p>💼 <strong>LinkedIn:</strong> www.linkedin.com/in/praphul-pandey-5129b23b4 </p>
+        <p>🐙 <strong>GitHub:</strong> https://github.com/praphul1803</p>
+        <p>📍 <strong>Location:</strong> Nashik, Maharashtra, India.</p>
+      </div>
+      <div class="reveal">
+        <form id="contactForm" novalidate>
+          <div><label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name"><span class="error"></span></div>
+          <div><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com"><span class="error"></span></div>
+          <div><label for="message">Message</label><textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea><span class="error"></span></div>
+          <button class="btn" type="submit">Send Message</button>
+          <div class="success" id="success">✅ Thanks! Your message has been validated and sent.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Praphul Pandey. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>

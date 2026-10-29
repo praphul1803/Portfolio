@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praphul Pandey | Portfolio</title>
+  <meta name="description" content="Personal portfolio of Praphul Pandey, MCA student and web developer.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="container">
+      <a href="index.html" class="logo">Portfolio<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div style="display:flex;gap:.5rem">
+        <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="hero">
+      <div>
+        <small>Hello, I'm</small>
+        <h1><span class="gradient-text">Praphul Pandey</span><br>I'm a <span class="typing" id="typing">Web Developer</span></h1>
+        <p>A second-year MCA student who enjoys building clean, useful web applications and exploring how machine learning can solve everyday problems.</p>
+        <a href="projects.html" class="btn">View My Work</a>
+        <a href="contact.html" class="btn outline">Contact Me</a>
+      </div>
+      <div class="avatar">PP</div>
+    </div>
+
+    <section class="reveal">
+      <h2>What I Do</h2>
+      <div class="grid">
+        <div class="card"><h3>🌐 Web Development</h3><p>Responsive, accessible websites using HTML, CSS and JavaScript.</p></div>
+        <div class="card"><h3>🧠 Machine Learning</h3><p>Applying ML to real data, such as predicting student performance.</p></div>
+        <div class="card"><h3>🗄️ Databases</h3><p>Designing and querying relational databases for real applications.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© 2026 Praphul Pandey. All rights reserved.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
